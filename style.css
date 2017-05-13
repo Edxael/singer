@@ -3,6 +3,30 @@ body{
     text-align: center;
 }
 
+.lineT{
+    width: 50vw;
+    height: 8px;
+    background-color: white;
+}
+
 .line1{
     border: 5px solid white;
 }
+
+.menu{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    height: 100px;
+    border: 3px solid white;
+    margin: 0px auto;
+
+}
+
+
+ul#menu {
+    padding: 0;}
+ul#menu li {display: inline;}
+ul#menu li a {background-color: black; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px 4px 0 0;}
+ul#menu li a:hover {background-color: #cc99ff;}
