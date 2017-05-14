@@ -1,16 +1,16 @@
 body{
-    background-color: rgb(156, 255, 252);
+    background-color: rgb(127, 162, 160);
     text-align: center;
 }
 
 .bar{
     width: 50vw;
     height: 8px;
-    background-color: rgb(154, 167, 252);
+    background-color: black;
 }
 
 .frame{
-    border: 5px solid rgb(92, 113, 250);
+    border: 5px solid black;
 }
 
 
@@ -26,7 +26,7 @@ body{
     width: 110px;
     height: 30px;
     margin: 4px;
-    border: 1px solid black;
+    border: 2px solid black;
     padding-top: 10px;
 
     text-decoration:  none;
@@ -35,5 +35,5 @@ body{
 }
 
 .link:hover{
-    background-color: rgb(92, 113, 250);
+    background-color: rgb(5, 255, 233);
 }
